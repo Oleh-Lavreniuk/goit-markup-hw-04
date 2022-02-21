@@ -156,6 +156,7 @@ img {
 .main {
 }
 .hero {
+  max-width: 1600px;
   background-color: var(--hero-bg-color);
   text-align: center;
   padding-top: 200px;
@@ -169,8 +170,8 @@ img {
     ),
     url(../images/hero/hero-bg.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  max-width: 1600px;
 }
 .hero-title {
   margin-bottom: 30px;
