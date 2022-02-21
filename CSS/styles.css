@@ -11,6 +11,7 @@ font-family: 'Roboto', sans-serif; */
   --background-color-light: #ffffff;
   --secondary-bg-color-light: #f5f4fa;
   --secondary-bg-color-dark: #2f303a;
+  --hero-bg-color: #c4c4c4;
   --hero-btn-hover-color: #188ce8;
   --hero-text-color: #ffffff;
   --portfolio-btn-active-color: #ffffff;
@@ -155,10 +156,21 @@ img {
 .main {
 }
 .hero {
-  background-color: var(--secondary-bg-color-dark);
+  background-color: var(--hero-bg-color);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
 }
 .hero-title {
   margin-bottom: 30px;
