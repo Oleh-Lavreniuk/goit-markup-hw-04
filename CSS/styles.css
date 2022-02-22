@@ -235,7 +235,20 @@ img {
 .desc-list-item {
   flex-basis: calc((100% - 90px) / 4);
 }
+.desc-wrapper-icon {
+  background: var(--secondary-bg-color-light);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.desc-icon {
+  width: 70px;
+  height: 70px;
+  fill: var(--main-text-color);
+}
 .desc-item-title {
+  margin-top: 30px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
