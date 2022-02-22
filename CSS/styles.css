@@ -299,6 +299,9 @@ img {
 }
 .staff-list-person {
   background-color: var(--background-color-light);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  /* border-radius: 0px 0px 4px 4px; */
   flex-basis: calc((100% - 90px) / 4);
 }
 .staff-list-person:not(:first-child) {
@@ -408,6 +411,8 @@ img {
 .port-item-btn:focus {
   background-color: var(--accent-color);
   color: var(--portfolio-btn-active-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* ==UL-2 "prj-list"== */
@@ -424,6 +429,12 @@ img {
 }
 .port-list-item:not(:nth-child(3n + 1)) {
   margin-left: 30px;
+}
+.port-list-item:hover {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .port-item-img {
 }
