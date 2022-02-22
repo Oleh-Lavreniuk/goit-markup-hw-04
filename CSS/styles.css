@@ -149,6 +149,19 @@ img {
 .header-contacts-list-item:focus {
   color: var(--accent-color);
 }
+.icon-envelope,
+.icon-smartphone {
+  fill: var(--secondary-text-color);
+  margin-right: 10px;
+}
+.icon-envelope {
+}
+.icon-smartphone {
+}
+.icon:hover,
+.icon:focus {
+  fill: var(--accent-color);
+}
 /* ===HEADER END=== */
 
 /* ===MAIN=== */
